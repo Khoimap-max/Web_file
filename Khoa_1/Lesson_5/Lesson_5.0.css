@@ -1,0 +1,31 @@
+#h1-001{
+    text-align: center;
+    color: white;
+}
+.h2{
+    color: white
+}
+.li{
+    color:white
+}
+.p{
+    color:white
+}
+#r{
+    text-align: right;
+    background-color: green;
+}
+#c{
+    text-align: center;
+    background-color: red;
+}
+#l{
+    text-align: left;
+    background-color: yellow;
+}
+body{
+    background-color: black;
+}
+#but{
+    margin-right:20px;
+}

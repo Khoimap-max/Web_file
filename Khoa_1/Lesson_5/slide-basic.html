@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slider</title>
+  <!-- Slick CSS -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+  <!-- Slick Theme CSS (tùy chọn) -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+  <!-- jQuery (Slick yêu cầu jQuery) -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Slick JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <style type="text/css">
+    .your-slider img{
+      width: 100%;
+      height: 90vh;
+    }
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .slick-prev, .slick-next{
+      background: black;
+      border-radius: 50%;
+      z-index: 99999;
+    }
+    .slick-prev{
+      left: 0px;
+    }
+    .slick-next{
+      right: 0px;
+    }
+  </style>
+</head>
+<body>
+<div class="your-slider">
+    <div><img src="https://i.pinimg.com/736x/3d/95/ad/3d95ad7768986d612ef9f7ba0fed154d.jpg" alt="Slide 1"></div>
+    <div><img src="https://png.pngtree.com/background/20230412/original/pngtree-landscape-landscape-forest-snow-mountain-autumn-mountains-nature-background-illustration-poster-picture-image_2394890.jpg" alt="Slide 2"></div>
+    <div><img src="https://img.pikbest.com/wp/202345/desktop-wallpapers-landscape-background-wallpaper_9578952.jpg!w700wp" alt="Slide 3"></div>
+    <div><img src="https://wallpaperbat.com/img/674284-awesome-space-background-for-desktop-hd-wallpaper-background-1191x670-space-desktop-background-cool-desktop-background-best-background-image.jpg" alt="Slide 4"></div>
+    <div><img src="https://img.uhdpaper.com/wallpaper/planets-mountains-landscape-space-scenery-687@0@j" alt="Slide 5"></div>
+    <div><img src="https://c4.wallpaperflare.com/wallpaper/108/140/869/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-preview.jpg" alt="Slide 6"></div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.your-slider').slick({
+            autoplay: true,       // Tự động chạy
+            autoplaySpeed: 2000,  // Thời gian giữa các slide (2 giây)
+            dots: true,           // Hiển thị dấu chấm bên dưới slider
+            arrows: true,         // Hiển thị nút điều hướng trái/phải
+        });
+    });
+</script>
+
+</body>
+</html>

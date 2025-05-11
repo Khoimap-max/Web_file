@@ -1,0 +1,27 @@
+body{
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#row_1 {
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 500px 500px 0 0;
+}
+#row_2{
+    display: flex;
+}
+#row_20{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 0 0 40px 0;
+}
+#row_21{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 0 0 0 40px;
+}

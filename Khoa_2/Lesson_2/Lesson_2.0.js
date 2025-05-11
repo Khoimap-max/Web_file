@@ -1,0 +1,14 @@
+var city = "Ha Noi"
+let age = 25
+const Pi = 3.14
+let temerature = 35
+let greeting = "Ko biet"
+let isJavaScriptFun = "Fun"
+let nothing = ""
+let notDefined = "undefined"
+let uniqueID = 1212100453
+let numbers = 123048362
+let person = "Thay Tien"
+let greetingUppercase = "Hello"
+let greetingReplaced = "Good afternoon"
+greetingUppercase = greetingReplaced

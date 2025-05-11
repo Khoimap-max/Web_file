@@ -1,0 +1,27 @@
+.carousel-container{
+    width: 100%;
+    overflow: hidden;
+    background-color: #f8f8f8;
+}
+.carousel{
+    display:flex;
+    width: max-content;
+    animation: scroll-left 10s linear infinite;
+}
+.carousel-item{
+    min-width:200px;
+    margin-right:20px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+@keyframes scroll-left{
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform:translateX(-100%)
+    }
+}

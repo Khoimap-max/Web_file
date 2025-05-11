@@ -1,0 +1,32 @@
+html{
+    background-color: black;
+}
+.product-list{
+    display: flex;
+    justify-content: space-between;
+}
+.product-item{
+    color: rgb(158, 7, 7);
+    background-color: white;
+    border: 5px solid red;
+    width: fit-content;
+    height: 250px;
+    border-radius: 15px;
+    margin: 10px 10px;
+    padding: 10px;
+    position: relative;
+}
+.product-item #btnAddToCart{
+    color:white;
+    background-color: black;
+    position: absolute;
+    bottom: 10px;
+    border: 3px solid red;
+    border-radius: 25px;
+    width: 125px;
+    height: 40px;
+    margin-left: 10px;
+}
+#btnAddToCart:hover{
+    background-color: red;
+}

@@ -1,0 +1,27 @@
+body{
+    background-color: #e3516E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row_1{
+    display: flex;
+}
+#row_10{
+    width: 200;
+    height: 200;
+    background-color: #51B5A9;
+    border-radius: 200px 0 0 0;
+}
+#row_11{
+    width: 200;
+    height: 200;
+    background-color: #FADE8B;
+    border-radius: 0 200px 0 0;
+}
+#row_20{
+    width: 200;
+    height: 200;
+    background-color: #F7F3D7;
+    border-radius: 0 0 0 200px;
+}

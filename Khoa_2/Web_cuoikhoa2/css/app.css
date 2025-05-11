@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.3S;
+}
+body{
+    /* background-color: #212121; */
+    background-color: black;
+}
+footer {
+    /* background-color: #3a3838; */
+    background-color: #212121;
+    justify-content: space-around;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: Trebuchet MS;
+}
+.connect-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.in-side-cr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Top_bar_icon{
+    width: 110px;
+    height: 110px;
+}
+#Top_search_icon{
+    color: rgb(253, 204, 24);
+    border: none;
+    width: 20px;
+    height: 20px;
+}
+#Sign_out_icon{
+    width: 35px;
+    height: 35px;
+    margin-left: 200px;
+}
+#Sign_out_icon:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#Shopping_cart_icon{
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+    margin-right: 10px
+}
+#Shopping_cart_icon:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+#Top_search_icon:hover{
+    cursor: pointer;
+    padding: 2px;
+}
+#searchInput{
+    font-size: 13px;
+    border: none;
+}
+.search_box{
+    display: flex;
+    border: 2px solid rgb(253, 204, 24);
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 20px;
+}
+::placeholder{
+    color: rgb(253, 204, 24);
+}
+.header_but {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    color: rgb(253, 204, 24) !important;
+}
+.header_but a{
+    color: rgb(253, 204, 24) !important;
+    text-decoration: none !important;
+}
+.header_but:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.input-container:focus {
+    outline: none;
+    
+}
+.input-container{
+    background-color: transparent;
+    color: rgb(253, 204, 24);
+    padding-left: 8px;
+}
+.top-slider{
+    border: 1px solid black !important;
+    border-radius: 50px !important;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.your-slider img{
+    width: 100%;
+    height: 90vh;
+  }
+.slick-prev {
+    z-index: 99945;
+    left: 100px !important;
+}
+.slick-next {
+    z-index: 99945;
+    right: 100px !important;
+}
+.slick-dots li button:before{
+    color: white !important;
+}
+.slick-dots {
+    bottom: 50px !important;
+}
+.slide_img{
+    width: 100%px;
+    height: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.Title-content{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 25px;
+    color: rgb(253, 204, 24);
+    background-color: #3a3838;
+    border-radius: 20px;
+}
+.Title-content h1{
+    font-size: 40px;
+}
+.row-product .col img{
+    width: 100%;
+}
+.row-product{
+    margin-bottom: 30px;
+}
+.product-supplier{
+    color: rgba(255, 255, 255, 0.296);
+    font-size: smaller;
+}
+.product-name{
+    color: rgb(253, 204, 24);
+    font-size:large;
+    text-overflow: ellipsis;
+}
+.product-price{
+    color:rgba(255, 255, 255, 0.442);
+    font-size: medium;
+    margin-bottom: 10px;
+}
+.ChangePageButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.ChangePageButton a {
+    color: rgb(253, 204, 24);
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #3a3838;
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+.ChangePageButton:hover{
+    transform: translateY(-10px);
+}
+#CPB:hover {
+    cursor: pointer;
+    border-bottom: 2px solid rgb(253, 204, 24);
+}
+.col h2 {
+    color: rgb(253, 204, 24);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.col h3 {
+    color: rgb(253, 204, 24);
+}
+.col2 h2 {
+    color: rgb(253, 204, 24);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.col2 h3 {
+    color: rgb(253, 204, 24);
+}
+#AboutCompany {
+    margin-bottom: 200px;
+}
+.col img{
+    height: 300px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.col:hover{
+    transform: translateY(-25px);
+    border-radius: 35px;
+    border-bottom: 3px solid rgb(253, 204, 24);
+}
+.company-info{
+    color: rgb(253, 204, 24);
+    text-align: left;
+}
+.company-info h1{
+    color: black !important;
+}
+.company-info h2 {
+    text-align: center;
+}
+.top-slider img {    
+    width: 1200px;
+    height: 700px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slide div img{
+    margin-bottom: 150px;
+    margin-right: 100px;
+    width: 100px !important;
+    height: 100px !important;
+    object-fit: cover !important;
+
+}
+.demo_info div img {
+    margin-bottom: 100px;
+    margin-right: 100px;
+}
+.demo_info {
+    display: flex;
+}
+.text h1 {
+    color: rgb(253, 204, 24);
+}
+.text h2 {
+    color: rgb(253, 204, 24);
+}
+.text ul li h3 {
+    color:rgb(253, 204, 24);
+}
+::marker {
+    color: rgb(253, 204, 24);
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+#google_map{
+    border: black solid 1px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
